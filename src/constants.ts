@@ -3,10 +3,10 @@ import type { ResumeData } from './types';
 export const RESUME_DATA: ResumeData = {
   personalInfo: {
     name: "Bekzat Manapov",
-    title: "AML/CTF Specialist | Blockchain Investigations",
+    title: "AML/CTF | Blockchain Investigations | P2P",
     description: 'Experienced AML/CTF Specialist with a strong background in crypto compliance at Binance and TON Wallet. Focused on blockchain forensics, fraud prevention, transaction monitoring, and P2P risk mitigation.',
     location: "Global",
-    currentRole: "AML/CTF Specialist",
+    currentRole: "AML/CTF Team Lead",
     currentCompany: "Telegram Wallet",
     avatarUrl: "/ava.jpg"
   },
@@ -23,7 +23,7 @@ export const RESUME_DATA: ResumeData = {
   experience: [
     {
       id: "1",
-      role: "AML/CTF Specialist",
+      role: "AML/CTF Team Lead",
       company: "Telegram Wallet",
       // Using public URL for Telegram Wallet logo
       logo: "/wallet.jpg",
