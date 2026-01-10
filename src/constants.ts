@@ -2,7 +2,7 @@ import type { ResumeData } from './types';
 
 export const RESUME_DATA: ResumeData = {
   personalInfo: {
-    name: "Neila is Sexy",
+    name: "Bekzat Manapov",
     title: "AML Team Lead | Blockchain Investigations",
     description: "AML Team Lead with 4 years of experience in crypto compliance (ex-Binance, TON Wallet). Specializing in Team Management, Fraud Detection, Blockchain Investigations, Transaction Monitoring, and P2P investigation.",
     location: "Global",
