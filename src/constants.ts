@@ -74,7 +74,7 @@ export const RESUME_DATA: ResumeData = {
       role: "Senior P2P Investigation Specialist",
       company: "Binance",
       // Using public URL for Binance logo
-      logo: "https://cryptologos.cc/logos/binance-coin-bnb-logo.png",
+      logo: "/binance.png",
       period: "October 2022 - September 2024",
       description: "Simultaneously served as CSAT and agent performance analyst. Assisted as QA specialist.",
       achievements: [
