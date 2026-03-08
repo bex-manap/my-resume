@@ -71,7 +71,7 @@ const Hero: React.FC = () => {
 
           <div className="flex flex-col md:flex-row items-center gap-4">
             <a 
-              href="/resume.pdf" 
+              href="/Bekzat Manapov Resume.pdf" 
               download
               className="flex items-center gap-2 px-6 py-3 bg-stone-100 hover:bg-white text-stone-900 rounded-full font-medium transition-all shadow-lg hover:-translate-y-1"
             >
