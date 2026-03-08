@@ -101,7 +101,7 @@ const App: React.FC = () => {
             <p>© {new Date().getFullYear()} {RESUME_DATA.personalInfo.name}. All rights reserved.</p>
             <div className="mt-4 flex justify-center gap-4">
                 <a 
-                  href="/resume.pdf" 
+                  href="/Bekzat Manapov Resume.pdf" 
                   download
                   className="flex items-center gap-2 text-sm font-medium text-stone-800 hover:text-stone-600 transition-colors"
                 >
