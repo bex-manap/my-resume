@@ -32,10 +32,10 @@ export const RESUME_DATA: ResumeData = {
       achievements: [
         "Team Management: Supervising a team of AML/KYC analysts, managing shifts, and ensuring all tasks meet established SLAs (Service Level Agreements).",
         "Quality Assurance (QA): Regularly reviewing the team's cases to ensure the accuracy of risk assessments and adherence to internal protocols.",
-        "Escalation Point: Acting as the final decision-maker for high-risk cases, PEP (Politically Exposed Persons) reviews, and suspicious activity reports.",
-        "Policy Development: Assisting the Head of Compliance in updating AML/CFT manuals to reflect new regulatory requirements (e.g., FATF Travel Rule).",
+        "Escalation Point: Serving as the final escalation point for critical-risk transactions, most complex cases and PEP (Politically Exposed Persons) reviews.",
+        "Policy Development: Assist the Manager of Compliance in updating AML/CFT manuals to reflect evolving regulatory requirements.",
         "Stakeholder Collaboration: Working with Product and Engineering teams to integrate compliance features into the Wallet interface without compromising user experience.",
-        "Law Enforcement Requests: Managing incoming requests from global law enforcement agencies regarding user data and asset freezes."
+        "Trainings: Designed and delivered training programs for AML analysts, covering internal workflows to ensure consistent team performance."
       ]
     },
     {
@@ -47,10 +47,10 @@ export const RESUME_DATA: ResumeData = {
       period: "February 2025 - January 2026",
       description: "Achieved QA score of 98% and top list of KPI while handling critical risk cases.",
       achievements: [
-        "Processed over 10,000 critical-risk blockchain transactions to mitigate risks in accordance with AML and CTF procedures.",
+        "Processed over 20,000 critical-risk blockchain transactions to mitigate risks in accordance with AML and CTF procedures.",
         "Helped to add multiple improvements in guidelines and QA standards to increase the efficiency of preventing illicit activities.",
         "Collaborated with development team to optimize admin systems, leading to a 15% reduction in manual case review time.",
-        "Utilized on-chain analysis tools (Elliptic and Chainalysis) to track illicit funds and trace blockchain transactions."
+        "Utilized on-chain analysis tools (Elliptic) to track illicit funds and trace blockchain transactions."
       ]
     },
     {
@@ -78,7 +78,7 @@ export const RESUME_DATA: ResumeData = {
       period: "October 2022 - September 2024",
       description: "Simultaneously served as CSAT and agent performance analyst. Assisted as QA specialist.",
       achievements: [
-        "Successfully resolved over 20,000 P2P financial disputes, ensuring timely and fair resolutions.",
+        "Successfully resolved over 30,000 P2P financial disputes, ensuring timely and fair resolutions.",
         "Identified and prevented fraudulent activities on P2P by manually marking scammers and analyzing complex fraud schemes.",
         "Identified and escalated cases for potential money laundering and terrorist financing activities."
       ]
