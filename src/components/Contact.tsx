@@ -28,19 +28,19 @@ export function Contact() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <ContactLink
-              href="https://t.me/yourtelegram"
+              href="https://t.me/bex_man"
               icon={<Send size={24} />}
               label="Telegram"
               color="bg-blue-500 hover:bg-blue-400"
             />
             <ContactLink
-              href="mailto:life.bekzat@gmail.com"
+              href="mailto:bex.manapov@gmail.com"
               icon={<Mail size={24} />}
               label="Email Me"
               color="bg-cyan-500 hover:bg-cyan-400"
             />
             <ContactLink
-              href="https://wa.me/1234567890"
+              href="https://wa.me/77066076607"
               icon={<MessageCircle size={24} />}
               label="WhatsApp"
               color="bg-emerald-500 hover:bg-emerald-400"

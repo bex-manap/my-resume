@@ -63,8 +63,8 @@ export function Hero() {
                 Get in Touch
               </a>
               <a
-                href="/Bekzat_Manapov_Resume.pdf"
-                download="Bekzat_Manapov_Resume.pdf"
+                href="/Bekzat Manapov Resume.pdf"
+                download="Bekzat Manapov Resume.pdf"
                 className="w-full sm:w-auto flex items-center justify-center gap-2 px-[32px] py-[14px] rounded-[50px] bg-transparent border-[1.5px] border-[#00C6FF] text-[#00C6FF] text-[15px] font-semibold tracking-[0.5px] transition-all duration-300 ease-in-out hover:bg-[#0072FF]/20 hover:shadow-[0_0_20px_rgba(0,198,255,0.4)] hover:scale-105 active:scale-95"
               >
                 <Download size={18} />
