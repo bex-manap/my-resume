@@ -170,6 +170,19 @@ function SkillBadge({
   key?: React.Key;
 }) {
   const Icon = skill.icon;
+  const [isOpen, setIsOpen] = React.useState(false);
+
+  // Close tooltip when clicking outside on mobile
+  React.useEffect(() => {
+    if (!isOpen) return;
+    const closeTooltip = () => setIsOpen(false);
+    document.addEventListener("click", closeTooltip);
+    document.addEventListener("touchstart", closeTooltip);
+    return () => {
+      document.removeEventListener("click", closeTooltip);
+      document.removeEventListener("touchstart", closeTooltip);
+    };
+  }, [isOpen]);
 
   return (
     <motion.div
@@ -178,7 +191,13 @@ function SkillBadge({
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
       whileHover={{ y: -5, scale: 1.05 }}
-      className={`relative group flex items-center gap-3 px-5 py-3 rounded-full border ${skill.border} ${skill.bg} backdrop-blur-sm cursor-pointer transition-all duration-300 ${skill.shadow}`}
+      onClick={(e) => {
+        e.stopPropagation();
+        setIsOpen(!isOpen);
+      }}
+      onMouseEnter={() => setIsOpen(true)}
+      onMouseLeave={() => setIsOpen(false)}
+      className={`relative flex items-center gap-3 px-5 py-3 rounded-full border ${skill.border} ${skill.bg} backdrop-blur-sm cursor-pointer transition-all duration-300 ${skill.shadow}`}
     >
       <Icon className={skill.color} size={20} />
       <span className="text-slate-200 font-medium whitespace-nowrap">
@@ -186,7 +205,11 @@ function SkillBadge({
       </span>
 
       {/* Tooltip */}
-      <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-4 w-64 p-4 rounded-xl bg-slate-800 border border-slate-700 shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 translate-y-2 group-hover:translate-y-0 pointer-events-none">
+      <div 
+        className={`absolute bottom-full left-1/2 -translate-x-1/2 mb-4 w-64 p-4 rounded-xl bg-slate-800 border border-slate-700 shadow-2xl transition-all duration-300 z-50 pointer-events-none ${
+          isOpen ? "opacity-100 visible translate-y-0" : "opacity-0 invisible translate-y-2"
+        }`}
+      >
         <div className="flex justify-between items-center mb-2">
           <span className="text-white font-bold text-sm">{skill.name}</span>
         </div>

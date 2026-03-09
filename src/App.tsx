@@ -35,7 +35,7 @@ export default function App() {
         <Contact />
       </main>
       <footer className="py-8 pb-16 text-center text-slate-500 text-sm border-t border-slate-800">
-        <p>© {new Date().getFullYear()} AML Team Lead. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} All rights reserved.</p>
       </footer>
 
       {/* Ticker */}

@@ -42,7 +42,7 @@ export function Navbar() {
     >
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
         <a href="#" className="text-xl font-bold tracking-tighter text-white">
-          Resume<span className="text-cyan-400">.</span>
+          Resume
         </a>
         <ul className="hidden md:flex items-center gap-8">
           {navItems.map((item) => (
